@@ -2,7 +2,7 @@
 
 namespace Untek\FrameworkPlugin\MessengerKafkaTransport\Infrastructure\Messenger\Symfony\Transport;
 
-use Mservis\Operator\Module\Bus\Infrastructure\Messenger\Symfony\Stamp\TopicStamp;
+use Untek\Framework\Messenger\Infrastructure\Messenger\Symfony\Stamp\TopicStamp;
 use longlang\phpkafka\Producer\ProduceMessage;
 use longlang\phpkafka\Producer\Producer;
 use longlang\phpkafka\Producer\ProducerConfig;

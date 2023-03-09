@@ -5,7 +5,7 @@ namespace Untek\FrameworkPlugin\MessengerKafkaTransport\Infrastructure\Messenger
 use longlang\phpkafka\Consumer\ConsumeMessage;
 use longlang\phpkafka\Consumer\Consumer;
 use longlang\phpkafka\Protocol\RecordBatch\RecordHeader;
-use Mservis\Operator\Module\Bus\Infrastructure\Messenger\Symfony\Stamp\TopicStamp;
+use Untek\Framework\Messenger\Infrastructure\Messenger\Symfony\Stamp\TopicStamp;
 use Untek\FrameworkPlugin\MessengerKafkaTransport\Infrastructure\Messenger\Symfony\Stamp\ConsumeMessageStamp;
 use Symfony\Component\Messenger\Envelope;
 use Symfony\Component\Messenger\Stamp\TransportMessageIdStamp;
