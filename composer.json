@@ -10,7 +10,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    
+    "longlang/phpkafka": "v1.2.1"
   },
   "autoload": {
     "psr-4": {
