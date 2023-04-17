@@ -11,11 +11,4 @@ class KafkaBundle extends BaseBundle
     {
         return 'kafka';
     }
-
-    public function boot(): void
-    {
-        if ($this->isCli()) {
-            $this->configureFromPhpFile(__DIR__ . '/config/commands.php');
-        }
-    }
 }
